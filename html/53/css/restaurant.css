@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+header{
+    font-size: 2em;
+    font-style:oblique;
+    text-align: center;
+    border: 6px;
+    border-style:outset;
+    border-color: black;
+    border-radius: 8px;
+}
+body{
+    color:black;
+    background-color:rgb(152, 63, 63);
+    text-align: center;
+}
