@@ -1,0 +1,19 @@
+section {
+    font-size: 1.25em;
+    text-align: center;
+    text-transform: capitalize;
+}
+section a{
+    font-size: 1.25rem;
+}
+.clear-fix {
+    clear: both;
+}
+
+.course {
+    text-shadow: 2px 2px 2px rgb(121, 121, 122);
+}
+a{
+    font-size: 1.25em;
+}
+ 
