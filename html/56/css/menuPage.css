@@ -1,0 +1,65 @@
+section {
+    font-size: 1.25em;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+section a {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+section h3 {
+    color: rgb(233, 156, 156);
+}
+
+#surpriseSteak a {
+    color: rgb(233, 156, 156);
+
+}
+
+#surpriseSteak {
+    margin: 1em;
+}
+
+#surpriseSteak a:hover {
+    color: rgb(253, 87, 87);
+}
+
+#surpriseSteak a:active {
+    color: red;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.course_name {
+    text-shadow: 2px 2px 2px rgb(121, 121, 122);
+}
+
+a {
+    font-size: 1.25em;
+}
+
+.course {
+    border-bottom: 4px groove grey;
+    padding-bottom: 2em;
+}
+span{
+    margin: auto;
+    vertical-align:top;
+    box-sizing:border-box;
+    text-align: left;
+    display: inline-block;
+    opacity: .5;
+    
+}
+article{
+    padding-left: 2em;
+    display: inline-block;
+    overflow: auto;
+    box-sizing: border-box;
+    
+}
