@@ -4,7 +4,6 @@ section {
     text-transform: capitalize;
 
 }
-
 section a {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -48,12 +47,17 @@ a {
     padding-bottom: 2em;
 }
 span{
+    font-size: x-large;
     margin: auto;
+    margin-left: 1em;
     vertical-align:top;
     box-sizing:border-box;
     text-align: left;
     display: inline-block;
     opacity: .5;
+    /* position: absolute;
+    left: 11em; */
+    
     
 }
 article{
