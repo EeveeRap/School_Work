@@ -5,8 +5,11 @@ header {
 }
 
 section {
-    font-size: larger;
+    font-size: large;
     line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    padding:1em;
+    
 }
 
 h3 {
@@ -19,7 +22,7 @@ a {
     margin-bottom: 12em;
 }
 article{
-    padding-left: 2em;
+    
         display: inline-block;
         overflow: auto;
         box-sizing: border-box;

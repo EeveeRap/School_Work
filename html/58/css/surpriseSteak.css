@@ -1,0 +1,29 @@
+header {
+    font-size: 1.5em;
+
+
+}
+
+section {
+    font-size: large;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    padding:1em;
+    
+}
+
+h3 {
+    text-shadow: 2px 2px 2px rgb(121, 121, 122);
+    font-size: 1.5em;
+}
+
+a {
+    font-size: 1.25em;
+    margin-bottom: 12em;
+}
+article{
+    
+        display: inline-block;
+        overflow: auto;
+        box-sizing: border-box;
+}

@@ -1,0 +1,42 @@
+header {
+
+    margin-bottom: 1.5em;
+    margin: 1em 2em 2em;
+
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+article {
+    padding: 1em;
+
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+
+}
+
+td,
+th {
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(226, 94, 94, 0.4);
+
+
+}
+th:last-child,td:last-child{
+font-style: italic;
+text-shadow: 2px 2px 2px grey
+
+}

@@ -1,0 +1,51 @@
+html{
+    background: rgb(152, 63, 63);
+}
+header {
+    
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: center;
+    border: 6px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 8px;
+    margin-top: .5em;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    
+    color: black;
+    background-image: url("../images/background.jpg");
+    /* background-color: rgb(183, 75, 75); */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+
+}
+
+a:hover {
+    color: rgb(253, 87, 87);
+}
+
+a:active {
+    color: red;
+}
+
+a {
+
+    text-align: center;
+    color: rgb(136, 135, 135);    
+    text-decoration: none;
+}
+
+nav {
+    padding: 2em;
+    border: 2px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
