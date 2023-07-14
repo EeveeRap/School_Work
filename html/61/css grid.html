@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template: 250px 50px 50px 250px / 250px 50px 50px 250px;
+            grid-template-areas:
+                ". r r ."
+                " g r2 p2 p "
+                " g g2 b2 p"
+                ". b b .";
+        }
+
+        div:nth-child(1) {
+            grid-area: r;
+            background-color: red;
+
+        }
+
+        div:nth-child(2) {
+            grid-area: p;
+            background-color: purple;
+        }
+
+        div:nth-child(3) {
+            grid-area: g;
+            background-color: green;
+        }
+
+        div:nth-child(4) {
+            grid-area: b;
+            background-color: brown;
+        }
+
+        div:nth-child(5) {
+            grid-area: r2;
+            background-color: red;
+        }
+
+        div:nth-child(6) {
+            grid-area: g2;
+            background-color: green;
+        }
+
+        div:nth-child(7) {
+            grid-area: b2;
+            background-color: brown;
+        }
+
+        div:nth-child(8) {
+            grid-area: p2;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <style>
+         body {
+            display: grid;
+
+            grid-template-rows: [top] 250px [mid-top] 50px [middle] 50px [mid-bottom] 250px [bottom];
+            grid-template-columns: [left] 250px [mid-left] 50px [middle] 50px [mid-right] 250px [right];
+            justify-content: center;
+
+        }
+
+        div:nth-child(1) {
+            background-color: red;
+            grid-column: mid-left / mid-right;
+            grid-row: top /mid-bottom;
+
+        }
+
+        div:nth-child(2) {
+            background-color: purple;
+            grid-row: mid-top / mid-bottom;
+            grid-column: middle / right;
+        }
+
+        div:nth-child(3) {
+            background-color: brown;
+            grid-column: mid-left / mid-right;
+            grid-row: middle / bottom;
+        }
+
+        div:nth-child(4) {
+            background-color: green;
+            grid-row: mid-top / mid-bottom;
+            grid-column: left / middle;
+        }
+
+
+
+
+
+        div:nth-child(5) {
+            background-color: red;
+            grid-column: mid-left;
+            grid-row: mid-top;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+</body>  -->
+
+</html>
