@@ -1,4 +1,4 @@
 "use strict";
+/* global myName, email */
+console.log(myName, email);
 
-console.log(myName);
-console.log(email);
