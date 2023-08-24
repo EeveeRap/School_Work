@@ -15,12 +15,21 @@ function ourEvery(theArray, callbackFn) {
 function isCaps(char) {
     return char === char.toUpperCase();
 }
+
+function isNotCaps(char) {
+    return char === char.toLowerCase();
+}
 //calling ourEvery
 let hasCaps = ourEvery(letters, isCaps);
 console.log("Uppercase? " + hasCaps); //output should be "false"
 
 hasCaps = ourEvery(letters2, isCaps);
 console.log("Uppercase? " + hasCaps); //output should be "false"
+
+const noCaps = ourEvery(letters2, isNotCaps);
+console.log("Uppercase? " + noCaps); //output should be "true"
+
+
 
 //calling built in .every
 console.log(letters.every(isCaps)); //output should be "false"
