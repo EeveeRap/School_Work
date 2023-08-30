@@ -11,10 +11,13 @@
             "double"
         ],
         "no-var": "error",
-        "eqeqeq": "error"
+        "eqeqeq": "error",
+        "wrap-iife":"error",
+        "strict": "error"
     },
     "env": {
         "browser": true,
         "es6": true
     }
+
 }
