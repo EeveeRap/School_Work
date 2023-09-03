@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script src="hwPart1.js"></script>
+    <script src="hwPart2.js"></script>
+    <script>
+        //Accessing hwPart1.js:
+        console.log(window.myApp.utils.getMonthName(4)); //Output should be "April"
+        console.log(window.myApp.utils.getMonthIndex("April")); //Output should be 4
+
+        //Accessing hwPart2.js:
+        console.log(window.myApp.utils.stringCaseInsensitiveEquals("apple", "AppLe")); //Output should be true
+    </script>
+
+</body>
+
+</html>
