@@ -1,4 +1,4 @@
-window.myApp = window.myApp || {}; 
+window.myApp = window.myApp || {};
 
 window.myApp.utils = (function (monthModule) {
     "use strict";
@@ -18,13 +18,14 @@ window.myApp.utils = (function (monthModule) {
         }
     }
 
-     monthModule.getMonth = getMonthName;
-     monthModule.getMonthIndex = getMonthIndex;
+    monthModule.getMonth = getMonthName;
+    monthModule.getMonthIndex = getMonthIndex;
 
-    return {
-        getMonthName: monthModule.getMonth,
-       getMonthIndex: monthModule.getMonthIndex
-    };
+    return monthModule;
 
 }(window.myApp.utils || {}));
+/*global myApp*/
+console.log(myApp.utils.getMonthName(4)); //Output should be "April"
+console.log(myApp.utils.getMonthIndex("April")); //Output should be 4
+
 
