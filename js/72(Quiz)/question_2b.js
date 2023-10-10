@@ -1,11 +1,11 @@
 window.app = window.app || {};
 window.app.counterMaker = (function (theModule) {
     "use strict";
-    
+
     let counterAmount = 0;
 
     function createCounter() {
-        
+
         counterAmount++;
         let counter = 0;
         const counterId = counterAmount;
@@ -22,11 +22,13 @@ window.app.counterMaker = (function (theModule) {
         };
     }
 
-   
 
-    
+
+
     theModule.createCounter = createCounter;
-    
+
     return theModule;
 
 }(window.app.counterMaker || {}));
+
+// SL - not a problem but allowing for window.app.counterMaker to already exist not really needed as we dont intend to add to same object from another file. Simply creating and returning object in IIFE would be good enough here

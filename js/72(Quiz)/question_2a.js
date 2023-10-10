@@ -4,10 +4,11 @@ window.app.counter = (function () {
 
     let counter = 0;
 
-    function increment(){        
+    function increment(){
         counter++;
     }
 
+    // SL - getCount should return the count. Who says caller wants to log it out?
     function getCount(){
         return console.log(`Counter: ${counter}`);
     }
@@ -19,4 +20,4 @@ window.app.counter = (function () {
 
 }());
 
-
+// SL - nice!
