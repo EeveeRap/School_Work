@@ -67,8 +67,10 @@ window.pcs.messageBox = (function () {
             });
             buttonDiv.appendChild(okButton);
             div.appendChild(buttonDiv);
+            
         }
 
         document.body.appendChild(div);
+        
     };
 }());

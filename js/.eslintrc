@@ -13,7 +13,8 @@
         "no-var": "error",
         "eqeqeq": "error",
         "wrap-iife":"error",
-        "strict": "error"
+        "strict": "error",
+        "default-param-last": "error"
     },
     "env": {
         "browser": true,
