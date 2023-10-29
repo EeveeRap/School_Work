@@ -12,13 +12,14 @@
         ],
         "no-var": "error",
         "eqeqeq": "error",
-        "wrap-iife":"error",
+        "wrap-iife": "error",
         "strict": "error",
         "default-param-last": "error"
     },
     "env": {
-        "browser": true,
-        "es6": true
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 11
     }
-
 }
