@@ -1,3 +1,4 @@
+/*global $ */
 (function () {
     "use strict";
 
@@ -24,7 +25,7 @@
             $(`<button>${video.name} <img src="videoImage.jpg"</button>`)
             .appendTo(videoList)
             .click(() => {
-                theVideoElem.attr("src", video.url)
+                theVideoElem.attr("src", video.url);
                 
             });
         });

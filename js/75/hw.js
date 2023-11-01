@@ -1,5 +1,5 @@
 window.pcs = (function () {
-    'use strict';
+    "use strict";
   
     function setCss(elem, property, value) {
       elem.style[property] = value;
@@ -32,15 +32,15 @@ window.pcs = (function () {
           return this;
         },
         hide: function () {
-          setCss(elem, 'display', 'none');
+          setCss(elem, "display", "none");
           return this;
         },
         show: function () {
-          setCss(elem, 'display', 'block');
+          setCss(elem, "display", "block");
           return this;
         },
         click: function (callback) {
-          on(elem, 'click', callback);
+          on(elem, "click", callback);
           return this;
         },
         color:  function (flashLength) {

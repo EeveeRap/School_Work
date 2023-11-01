@@ -2,8 +2,8 @@
 (function () {
     "use strict";
 
-    const recipesButton = $('#recipesButton');
-    const output = $('#output');
+    const recipesButton = $("#recipesButton");
+    const output = $("#output");
 
 
     recipesButton.click(async () => {
@@ -11,11 +11,11 @@
             const response = await fetch("recipes.json");
             recipesButton.hide();
             output.css({
-                'width': '20%',
-                'position': 'absolute',
-                'left': '50%',
-                'top': '20%',
-                'transform': 'translate(-50%, -50%)'
+                "width": "20%",
+                "position": "absolute",
+                "left": "50%",
+                "top": "20%",
+                "transform": "translate(-50%, -50%)"
 
             });
 
@@ -27,15 +27,15 @@
 
             const loadedRecipes = await response.json();
 
-            const listGroup = output.find('.list-group');
-            const recipeDetails = output.find('.recipe-details'); // Create a div to display details
+            const listGroup = output.find(".list-group");
+            const recipeDetails = output.find(".recipe-details"); // Create a div to display details
 
             recipeDetails.css({
-                'height': '1em', /* You can adjust this value to your desired height */
-                'max-width': '100%',
-                'max-height': '100%',
-                'padding': '1em',
-                'margin-top': '1em'
+                "height": "1em", /* You can adjust this value to your desired height */
+                "max-width": "100%",
+                "max-height": "100%",
+                "padding": "1em",
+                "margin-top": "1em"
             });
 
             loadedRecipes.forEach(recipe => {
@@ -49,15 +49,15 @@
                             
                             <h4>Ingredients:</h4>
                             <ul>
-                                ${recipe.ingredients.split('\n').map(ingredient => `<li>${ingredient}</li>`).join('')}
+                                ${recipe.ingredients.split("\n").map(ingredient => `<li>${ingredient}</li>`).join("")}
                             </ul>
                         </div>
                     `);
 
-                    // detailsDiv.find('.recipe-image').css({
-                    //     'max-width': '100%',
-                    //     'max-height': 'auto',
-                    //     'text-align': 'centered'
+                    // detailsDiv.find(".recipe-image").css({
+                    //     "max-width": "100%",
+                    //     "max-height": "auto",
+                    //     "text-align": "centered"
                     // });
                     // Replace the previous details (if any) with the new details
                     recipeDetails.empty().append(detailsDiv);

@@ -21,12 +21,12 @@
     <script src="hw.js"></script>
     <script>
         window.pcs.messageBox(
-            'Is This Enough Homework?', 
+            "Is This Enough Homework?", 
             ["Yes", "No", "Maybe"],  
-             usersChoice => console.log('You picked ' + usersChoice));
+             usersChoice => console.log("You picked " + usersChoice));
 
-        const msg = document.querySelector('#msg');
-        document.querySelector('#show').addEventListener('click', () => {
+        const msg = document.querySelector("#msg");
+        document.querySelector("#show").addEventListener("click", () => {
             window.pcs.messageBox(msg.value);
         });
     </script>
