@@ -1,0 +1,71 @@
+[
+    {
+        "name": "body",
+        "url": "body.png"
+    },
+
+    {
+        "name": "eyes1",
+        "url": "eyes1.png"
+    },
+
+    {
+        "name": "eyes2",
+        "url": "eyes2.png"
+    },
+
+    {
+        "name": "eyes3",
+        "url": "eyes3.png"
+    },
+    
+    {
+        "name": "eyes4",
+        "url": "eyes4.png"
+    },
+
+    {
+        "name": "leftEar",
+        "url": "leftEar.png"
+    },
+
+    {
+        "name": "mustacheGlasses",
+        "url": "mustacheGlasses.png"
+    },
+
+    {
+        "name": "mustacheMouth",
+        "url": "mustacheMouth.png"
+    },
+
+    {
+        "name": "redGlasses",
+        "url": "redGlasses.png"
+    },
+
+    {
+        "name": "redLips",
+        "url": "redLips.png"
+    },
+
+    {
+        "name": "redNose",
+        "url": "redNose.png"
+    },
+
+    {
+        "name": "rightEar",
+        "url": "rightEar.png"
+    },
+    
+    {
+        "name": "smallNose",
+        "url": "smallNose.png"
+    },
+
+    {
+        "name": "smile",
+        "url": "smile.png"
+    }
+]
