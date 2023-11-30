@@ -5,6 +5,7 @@
 
         constructor(color) {
             this.color = color;
+            this.speed = 0;
         }
 
         go(speed) {
