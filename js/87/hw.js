@@ -58,7 +58,11 @@
         }
 
         toString() {
-            return `first: ${this.first}, last: ${this.last}, age: ${this.age}`;
+
+            let retVal = "";
+           retVal = Object.entries(this).map(keyValue => `${keyValue[0]}: ${keyValue[1]}`).join(" ");
+
+            return retVal;
         }
 
     }
@@ -88,7 +92,6 @@
     }
 
     const p1 = new Person("Michael", "Rapaport", 25);
-    console.log(p1.toString());
     p1.first = "Michael";
     p1.last = "Rapaport";
     p1.age = 25;
