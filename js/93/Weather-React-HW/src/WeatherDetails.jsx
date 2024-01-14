@@ -1,6 +1,5 @@
 import React from 'react';
 import './WeatherDetails.css';
-import PropTypes from 'prop-types'
 
 export default function WeatherDetails(props) {
   if (props.weather) {
@@ -26,13 +25,4 @@ export default function WeatherDetails(props) {
       <div className="error">{props.error}</div>
     </div>);
   }
-}
-
-WeatherDetails.propTypes = {
-  weather: PropTypes.shape({
-    location: PropTypes.string.isRequired,
-    icon: PropTypes.string.isRequired,
-    temperature: PropTypes.number.isRequired,
-    description: PropTypes.string.isRequired
-  })
 }
