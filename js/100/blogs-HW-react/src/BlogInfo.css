@@ -1,0 +1,19 @@
+.blog {
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.blog .title {
+  font-style: italic;
+}
+
+.website {
+  font-weight: bold;
+}
+
+.company {
+  font-size: small;
+}
