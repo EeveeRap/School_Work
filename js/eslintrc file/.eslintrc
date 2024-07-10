@@ -6,10 +6,10 @@
             "error",
             "always"
         ],
-        "quotes": [
-            "error",
-            "double"
-        ],
+        // "quotes": [
+        //     "error",
+        //     "single"
+        // ],
         "no-var": "error",
         "eqeqeq": "error",
         "wrap-iife": "error",

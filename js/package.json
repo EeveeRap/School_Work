@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "express": "^4.19.2",
-    "learnyounode": "^4.2.2",
-    "nodemon": "^3.1.0",
-    "through2-map": "^3.0.0"
-  }
-}
