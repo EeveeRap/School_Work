@@ -1,0 +1,27 @@
+[
+    {
+        "recipeName": "Meatballs and Spaghetti",
+        "url": "https://natashaskitchen.com/wp-content/uploads/2015/01/spaghetti-and-meatballs.jpg",
+        "ingredients": "Ground Meat\n Bread Crumbs\n Eggs\n Parmesan Cheese\n Spaghetti\n Marinara Sauce"
+    },
+    {
+        "recipeName": "Cowboy Steak",
+        "url": "https://www.theanthonykitchen.com/wp-content/uploads/2019/06/Cowboy-Steak-11-680x453.jpg",
+        "ingredients": "Ribeye steak\n Salt\n Black pepper\n Olive oil\n Garlic cloves"
+    },
+    {
+        "recipeName": "Meat Pizza",
+        "url": "https://images.kosher.com/details.slide/m/e/Meet_the_Meat_Pizza_of_the_Century.jpeg",
+        "ingredients": "Ground beef\n Kosher salt\n Black pepper\n Olive oil\n Tomato sauce"
+    },
+    {
+        "recipeName": "Sloppy Joe",
+        "url": "https://www.thechunkychef.com/wp-content/uploads/2018/10/The-Best-Homemade-Sloppy-Joes-pin.jpg",
+        "ingredients": "Ground beef\n Onion\n Ketchup\n Brown sugar\n Worcestershire sauce"
+    },
+    {
+        "recipeName": "Breaded Chicken",
+        "url": "https://www.marthastewart.com/thmb/-z1VXSZ9ZarQsFdAr8dznIBntMQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/336792_breaded-chicken-breasts-12-877d76b08e44450fa77c20a0e449a741.jpg",
+        "ingredients": "Chicken breasts\n Bread crumbs\n Eggs\n Salt\n Black pepper"
+    }
+]
