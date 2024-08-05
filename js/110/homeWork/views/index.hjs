@@ -1,0 +1,9 @@
+{{#username}}
+  <h1>{{username}} is logged in</h1>
+{{/username}}
+
+{{^username}}
+  <h1>No user is logged in</h1>
+{{/username}}
+
+<h4>You have visited this page {{ visitCount }} times</h4>

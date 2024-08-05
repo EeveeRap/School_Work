@@ -1,0 +1,5 @@
+<h2>Username Page</h2>
+<form method="POST" action="/login">
+    <input name="username" placeholder="username"/>
+    <button>login</button>
+</form>
