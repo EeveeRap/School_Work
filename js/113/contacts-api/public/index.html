@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Contacts</title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+      </head>
+
+      <body>
+        <button id="addContact">add contact</button>
+        <table id="contactsTable">
+          <caption>
+            <h2>my contacts</h2>
+          </caption>
+          <thead>
+            <tr>
+              <th>first</th>
+              <th>last</th>
+              <th>email</th>
+              <th>phone</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5">no contacts loaded</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <form id="contactForm">
+          <div class="formGroup">
+            <label for="first">first:</label>
+            <input id="first" required minlength="3" maxlength="7">
+          </div>
+          <div class="formGroup">
+            <label for="last">last:</label>
+            <input id="last" required>
+          </div>
+          <div class="formGroup">
+            <label for="email">email:</label>
+            <input id="email">
+          </div>
+          <div class="formGroup">
+            <label for="phone">phone:</label>
+            <input id="phone">
+          </div>
+
+          <button>save</button>
+          <button type="reset">reset</button>
+          <button id="cancel" type="button">cancel</button>
+        </form>
+
+        <script src="/javascripts/jquery-3.7.1.min.js"></script>
+        <script src="/javascripts/messageBox.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/javascripts/contacts.js"></script>
+      </body>
+
+    </html>
+  </body>
+
+</html>

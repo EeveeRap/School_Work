@@ -1,0 +1,49 @@
+db.recipes.aggregate({
+	$group: {
+		_id: '$author',
+		num_recipes: {$sum: 1}
+	}
+})
+
+db.recipes.aggregate({
+	$group: {
+		_id: '$author',
+		likes: {$sum: '$likes'},
+		dislikes: {$sum: '$dislikes'}
+	}
+})
+
+db.recipes.aggregate({
+	$match: {
+		type: 'american'
+	}
+}, {
+	$group: {
+		_id: '$author',
+		likes: {$sum: '$likes'},
+		dislikes: {$sum: '$dislikes'}
+	}
+})
+
+db.recipes.aggregate({
+	$match: {
+		type: 'american'
+	}
+}, {
+	$group: {
+		_id: '$author',
+		total_likes: {$sum: '$likes'},
+		total_dislikes: {$sum: '$dislikes'}
+	}
+},
+	{$sort: { total_likes: -1 } }
+)
+
+db.posts.aggregate({
+...     $lookup: {
+...             from: 'users',
+...             localField: 'author',
+...             foreignField: 'username',
+...             as: 'the_user'
+...     }
+... })

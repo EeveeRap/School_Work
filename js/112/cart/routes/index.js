@@ -17,16 +17,20 @@ router.route('/')
   })
   .post((req, res, next) => {
   const { id, quantity } = req.body;
-
+  
   const cart = new Cart( req.session.cart?.items);
+  console.log('in post cart is', cart);
+  req.session.cart = cart;
   cart.addItem(id, quantity);
     
     res.redirect('/');
 });
 
 router.get('/viewCart', (req, res, next) => {
+  const cart = new Cart( req.session.cart?.items);
+
   res.render('layout', {
-    items: req.session.cart?.items,
+    items: cart.getItems(),
     partials: {
       content: 'viewCart'
     }

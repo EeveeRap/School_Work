@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>price</th>
+            <th>quantity</th>
+        </tr>
+    </thead>
+    {{#items}}
+        {{item.name}}
+        {{item.price}}
+        {{quantity}}
+        
+    {{/items}}
+</table>
